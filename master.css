@@ -139,3 +139,8 @@ body {
     color: #8c8e91;
     font-size: 16px;
 }
+@media (max-width:391px) {
+    .parent {
+        width: 100%;
+    }
+}
