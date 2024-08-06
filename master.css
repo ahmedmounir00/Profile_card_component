@@ -139,8 +139,16 @@ body {
     color: #8c8e91;
     font-size: 16px;
 }
+
 @media (max-width:391px) {
-    .parent {
-        width: 100%;
+    body {
+        background: url(bottom.svg) bottom -603px right -718px no-repeat, url(top.svg) top -685px left -649px no-repeat;
+        background-color: hsl(185, 75%, 39%);
+        overflow: hidden;
     }
+
+    .parent {
+        width: 90%;
+    }
+
 }
